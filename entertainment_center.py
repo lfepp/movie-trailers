@@ -14,9 +14,16 @@ big_lebowski = media.Movie("The Big Lebowski", 1998,
 shawshank = media.Movie("The Shawshank Redemption", 1994,
                         "http://i.imgur.com/kbeoCpU.jpg",
                         "https://www.youtube.com/watch?v=K_tLp7T6U1c")
+other_guys = media.Movie("The Other Guys", 2010,
+                         "http://i.imgur.com/j1THs4C.jpg",
+                         "https://www.youtube.com/watch?v=kGO9IF67lqw")
+office_space = media.Movie("Office Space", 1999,
+                           "http://i.imgur.com/koG7yhq.jpg",
+                           "https://www.youtube.com/watch?v=doOdq7rs4Eg")
 
 # Define list of movies
-movies = [heathers, kiss_kiss_bang_bang, big_lebowski, shawshank]
+movies = [heathers, kiss_kiss_bang_bang, big_lebowski, shawshank, other_guys,
+          office_space]
 
 # Initialize open_movies_page
 if __name__ == "__main__":
